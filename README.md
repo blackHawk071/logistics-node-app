@@ -1,16 +1,16 @@
-# Google Maps JavaScript Sample
-
 This sample is generated from @googlemaps/js-samples located at
 https://github.com/googlemaps/js-samples.
 
 ## Setup
-
-```sh
+```
 npm i
 npm start  # development
-npm run build  # production
 ```
-
+```
+docker build . -t username/app-name  # build docker image
+docker run -d username/app-name   # start the container
+```
+Update the Google maps API key in index.html file and env file
 ## Feedback
 
 For feedback related to this sample, please open a new issue on
